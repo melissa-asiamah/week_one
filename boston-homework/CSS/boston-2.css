@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  margin-left: 5px;
+}
+header {
+  border: 1px solid white;
+  background-color: black;
+  height: 60px;
+}
+
+header > img {
+  float: left;
+  width: 169px;
+  margin-left: 160px;
+  margin-right: 154px
+}
+nav > ul > li {
+  text-align: center;
+}
+nav > ul > li {
+  display: inline-block;
+  padding-top: 5px;
+}
+nav > ul > li> a {
+  margin-right: 40px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: lightgrey;
+  font-weight:700;
+  font-size: 14px;
+}
+#idk {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  width: 30%;
+  height: 1px;
+  margin-top: 127px;
+  margin-left: 26px;
+}
+
+.leftBigContainSection {
+  border-top: 2px solid red;
+  height: 800px;
+  width: 63%;
+  float: left;
+  clear: both;
+  margin-left: 28px;;
+}
+.bigUpperImage {
+  height: 450px;
+  width: 65%;
+  float: left;
+}
+.bigUpperImage > img {
+  display: inline-block;
+  width: 99%;
+  height: 363px;
+  margin-top: 15px;
+}
+.bigUpperImage  a{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+  font-size: 20px;
+  color: black;
+}
+.sideListBigImage {
+  height: 805px;
+  width: 35%;
+  margin: 0 67%;
+}
+.sideListLinks {
+  border-bottom: 1px solid lightgrey;
+  height: 99px;
+}
+.sideListLinks h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+  font-size: 15px;
+  color: red;
+}
+.sideListLinks p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+  font-size: 12px;
+  color: black;
+}
+.bottomImgContainer {
+  width: 62%;
+  margin-top: 62px;
+  height: 317px;
+  float: left;
+}
+
+.anotherSection {
+  float: left;
+  width: 45%;
+  height:315px;
+  margin-right:10px;
+}
+.anotherSection a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight:700;
+  font-size: 15px;
+}
+.anotherSection2 {
+  float: left;
+  width: 50%;
+  height:315px;
+}
+.anotherSection2 a{
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight:700;
+  font-size: 15px;
+}
+.twoBottomImg1 {
+  background-image: url(https://www.catster.com/wp-content/uploads/2018/05/A-gray-cat-crying-looking-upset.jpg);
+  background-size: contain;
+  height: 203px;
+  width: 100%;
+  float: left;
+  margin-bottom:15px;
+}
+.twoBottomImg2 {
+background-image: url(https://news.nationalgeographic.com/content/dam/news/2018/05/17/you-can-train-your-cat/02-cat-training-NationalGeographic_1484324.ngsversion.1526587209178.adapt.1900.1.jpg);
+background-size: cover;
+background-image: no-repeat;
+height: 203px;
+width: 100%;
+float: left;
+margin-bottom:15px;
+}
+.aside {
+  height: 300px;
+  width: 35%;
+  margin-top: 52px;
+  float: left;
+  padding-left: 81px;
+
+}
+.sideList {
+  border-top: 2px solid red;
+  margin-top:-20px;
+  height: 500px;
+  width: 28%;
+  float: left;
+}
+#hmm {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+  font-size: 22px;
+}
+.sideList > ol > li  {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+  font-size: 13px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.sideList > ol > li > a {
+  text-decoration: none;
+  color: black;
+}
+.bottomAutoSection {
+  border-top: 1px solid grey;
+  height: 500px;
+  float: left;
+  width: 100%;
+  margin-left: 27px;
+  margin-top: 61px;
+  padding-top: 29px;
+}
+.bottomAutoSection > h2 {
+  border-left: 4px solid red;
+  border-right: 4px solid red;
+  width: 15%;
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight:800;
+  font-size: 25px;
+
+}
+.leftOfSection {
+  width: 35%;
+  height: 285px;
+  float: left;
+}
+.infinity {
+  display: inline;
+}
+.infinity p a {
+  display: inline;
+  width: 40%;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight:800;
+  font-size: 22px;
+}
+
+.rightBottomList {
+  width: 48%;
+  height: 348px;
+  float: left;
+}
+
+.rightBottomList > ul > li {
+  margin-right: 130px;
+  padding-top: 2px;
+  padding: 10px 0 20px 0;
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
+.rightBottomList > ul > li > a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight:700;
+  font-size: 15px;
+}
+footer {
+  border-top: 1px solid lightgrey;
+  margin-top: 45px;
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+small {
+  text-align: right;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight:700;
+  font-size: 10px;
+}
+footer > small + ul {
+  text-align: right;
+}
+footer > small + ul > li {
+  display: inline-block;
+  border-right: 1px solid blue;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: blue;
+  font-weight:700;
+  font-size: 15px;
+}
+footer > small + ul > li > a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: blue;
+  font-weight:700;
+  font-size: 15px;
+  margin-right: 6px;
+}

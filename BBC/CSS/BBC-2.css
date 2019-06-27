@@ -1,0 +1,158 @@
+/* BODY SIZING */
+
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER CSS  */
+/*  Refrenced some of your code from class only for the header section */
+
+header{
+  border: 1px;
+  height: 61px;
+  padding-top: 5px;
+  background-color: black;
+}
+ header form{
+  width: 10%;
+  float: left;
+}
+h1 img {
+  width: 10%;
+  height: 17px;
+  object-fit: cover;
+  object-position: center;
+  float: left;
+  margin-left: 20px;
+}
+header ul{
+  width: 70%;
+  float: left;
+  margin: 0;
+}
+header nav ul li{
+  float: left;
+  width: 10%;
+  list-style: none;
+}
+header > nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+/* MAIN CSS */
+
+.topSection {
+  height: 432px;
+  height: 468px;
+  background-color: lightgrey;
+}
+h2 {
+  width: 20%;
+  height: 30px;
+  float: left;
+  margin: 25px 0 10px 20px;
+}
+  span {
+  width: 20%;
+  height: 34px;
+  float: right;
+  margin-top: 27px;
+  margin-right: 24px;
+  margin-bottom: 5px;
+}
+.bigImage {
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fkedarphotography.files.wordpress.com%2F2008%2F09%2Fplant-china.jpg&f=1);
+  background-size: cover;
+  margin: 0 10px 0 20px;
+  width: 45%;
+  height: 354px;
+  float: left;
+  clear: both;
+  box-shadow:
+      inset 0px 11px 8px -10px black,
+      inset 0px -11px 8px -10px black;
+}
+
+.fourImages1 {
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.nj.gov%2Fpinelands%2Fimages%2Fphoto_library_2%2Fimages_video_library%2Fplants%2FTurkey-beard-flower-John-F.-Bunnell.jpg&f=1);
+  background-size: cover;
+  margin: 5px;
+  width: 25%;
+  height: 170px;
+  float: left;
+  box-shadow:
+      inset 0px 11px 8px -10px black,
+      inset 0px -11px 8px -10px black;
+}
+.fourImages2 {
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.plantopedia.com%2Fwp-content%2Fuploads%2F2017%2F02%2Fdionaea-muscipula-n1.jpg&f=1);
+  background-size: cover;
+  margin: 5px;
+  width: 25%;
+  height: 170px;
+  float: left;
+  box-shadow:
+      inset 0px 11px 8px -10px black,
+      inset 0px -11px 8px -10px black;
+}
+.fourImages3 {
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F_eaKbvlcIK10%2FTAxpSq6GDII%2FAAAAAAAAIWo%2Fh07xy8d9UZk%2Fs1600%2Flilium%2Btiny%2Bsensation%2Bmultiple%2B%2528own%2529.jpg&f=1);
+  background-size: cover;
+  margin: 5px;
+  width: 25%;
+  height: 170px;
+  float: left;
+  box-shadow:
+      inset 0px 11px 8px -10px black,
+      inset 0px -11px 8px -10px black;
+}
+.fourImages4 {
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fgrail.cs.washington.edu%2Fprojects%2Foffice%2Fdewey%2Fchina%2Fphotos%2Fplants%2Fhangzhou.jpg&f=1);
+  background-size: cover;
+  margin: 5px;
+  width: 25%;
+  height: 170px;
+  float: left;
+  box-shadow:
+      inset 0px 11px 8px -10px black,
+      inset 0px -11px 8px -10px black;
+}
+.topSection p {
+  color: lightgrey;
+  font-weight:700;
+}
+
+.topSection h4 {
+}
+.topSection span {
+  border-left: 2px solid red;
+  padding-left: 5px;
+  size: 40px;
+  font-weight:700;
+
+}
+/* BOTTOM CSS  */
+
+.bottomSection {
+  height: 300px;
+  margin-left: 20px;
+}
+h3 {
+  border-left: 2px solid red;
+  padding-left: 5px;
+  font-weight:700;
+  font-size: 30px;
+}
+.bottomSection > img {
+  display: inline-block;
+  height: 250px;
+  width: 32%;
+  margin-right: 5px;
+  object-fit: cover;
+  object-position: center;
+}

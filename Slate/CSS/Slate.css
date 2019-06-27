@@ -1,0 +1,213 @@
+/* BODY CSS */
+*{
+  box-sizing: border-box;
+}
+/* HEADER CSS */
+/* MAIN CSS */
+.sectionA {
+  width: 65%;
+  height: 900px;
+  float: left;
+}
+.sectionATop {
+  background: url(https://www.motherjones.com/wp-content/uploads/2018/09/Ayanna-Pressley-9-4-18.png?w=1200&h=630&crop=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 370px;
+  margin:0px;
+}
+.sectionOneLeft {
+  height: 370px;
+  width: 40%;
+  float: left;
+}
+.sectionOneLeft h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  letter-spacing: -.01em;
+  margin: 30px;
+  margin-left: 5px;
+  margin-top: 50px;
+  text-align: center;
+  line-height: .9;
+}
+.sectionOneLeft span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -.01em;
+  margin: 20px;
+  margin-left: 65px;
+  text-align: center;
+}
+.sectionOneLeft p {
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+  font-size: 30px;
+  letter-spacing: -.01em;
+  margin: 30px;
+  margin-top: 10px;
+  line-height: 1;
+  text-align: center;
+  margin-left: 1px;
+}
+.sectionTwoRight {
+  height: 370px;
+  width: 35%;
+  float: right;
+  padding-left: 40px;
+  text-align: center;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+.sectionTwoRight p {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  display: block;
+  letter-spacing: -.01em;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 20px;
+}
+.sectionAMiddle {
+  border: 1px solid rgb(225, 226, 225);
+  width: 30%;
+  height: 430px;
+  float: left;
+  margin: 16px 0;
+}
+.sectionAMiddle a {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  display: block;
+  text-decoration: none;
+  letter-spacing: -.01em;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1;
+  margin: 15px;
+}
+.sectionAMiddle img {
+  max-width:100%;
+  max-height:100%;
+}
+.sectionB {
+  width: 35%;
+  height: 900px;
+  float: left;
+}
+  /* BOTTOM CSS */
+.sectionABottom {
+  border: 1px solid rgb(225, 226, 225);
+  width: 100%;
+  height: 80px;
+  float: left;
+}
+header {
+  background-color: rgb(131, 0, 70);
+  width: 100%;
+  height: 90px;
+}
+header h1 img {
+  display: block;
+  width: 40%;
+  height: 90px;
+  margin: -21px;
+  object-fit: cover;
+  padding-left: 20px;
+}
+.oneLink {
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 9px;
+  text-decoration: none;
+  padding-right: 50px;
+  color: yellow;
+}
+
+.letsExperiment {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  padding-top: 10px;
+  margin-left: 16px;
+  float: left;
+}
+
+.sectionLinkList span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: grey;
+  letter-spacing: -.01em;
+}
+.sectionLinkList p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -.01em;
+}
+.sectionInsideHeader {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+}
+.sectionAMiddle1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: grey;
+  text-decoration: none;
+  clear: both;
+  float: right;
+  width: 40%;
+  border: 1px solid rgb(225, 226, 225);
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.sectionAMiddle1 a {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  display: block;
+  text-decoration: none;
+  letter-spacing: -.01em;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1;
+  margin: 15px;
+}
+.sectionAMiddle3 {
+  background-color: rgb(131, 0, 70);
+  width: 40%;
+  height: 200px;
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.sectionAMiddle3 a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: block;
+  text-decoration: none;
+  letter-spacing: -.01em;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1;
+  margin: 15px;
+}
+.sectionLinkList {
+  border: 1px solid rgb(225, 226, 225);
+  width: 100%;
+  height: 100px;
+  padding: 13px;
+  margin-left: 5px;
+}

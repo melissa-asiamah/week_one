@@ -1,0 +1,110 @@
+body {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .25px;
+  padding: 40px;
+  font-weight: 300;
+}
+body > div {
+  width: 750px;
+}
+h1, h2, h3 {
+  font-weight: 300;
+}
+header > h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: red;
+}
+header > h2 {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+ul {
+  padding-left: 0;
+}
+ul > li {
+  display: inline-block;
+  margin: 5px;
+  font-size: 20px;
+}
+li > a {
+  float: left;
+  color: rgb(225, 226, 225);
+}
+section > h2 {
+  font-size: 34px;
+  color: rgb(225, 226, 225);
+}
+section > span {
+  display: block;
+  line-height: 10px;
+  height: 35px;
+  font-size: 32px;
+}
+img {
+  display: block;
+  height: 300px;
+}
+
+p {
+  line-height: 25px;
+}
+p::first-letter {
+  font-size: 100px;
+  padding-right: 10px;
+  line-height: .9;
+  float: left;
+  color: rgb(225, 226, 225);
+}
+footer > a {
+  font-weight: 700;
+  color: red
+
+}
+section > footer {
+  text-align: right;
+  border-bottom: 1px solid rgb(225, 226, 225);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav > ul > li > a {
+  color: red;
+  font-size: 17px;
+  border-right:1.5px solid rgb(225, 226, 225);
+  padding-right: 10px;
+}
+
+nav ul {
+  float: right;
+}
+nav > ul > li:last-child {
+  border:none;
+}
+
+section > h2 ~ h2 {
+  color:black;
+}
+section a {
+  display: block;
+  width: 750px;
+  text-align: right;
+  border-bottom: 1px solid rgb(225, 226, 225);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+p ~ a {
+  float: right;
+  font-weight: 700;
+  color: red;
+}
+section nav footer {
+border-bottom: 1px solid rgb(225, 226, 225);
+}
+#idk {
+  display: block;
+  margin-left: 600px;
+
+}

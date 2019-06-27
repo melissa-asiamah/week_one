@@ -1,0 +1,16 @@
+section.ellen {
+  background-image: url("https://www.incimages.com/uploaded_files/image/1940x900/ellen-pao-01-2018_365650.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+section.ellen a {
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  position: absolute;
+  left: 90px;
+  bottom: 20px;
+}

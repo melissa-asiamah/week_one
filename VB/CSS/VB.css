@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background: black;
+  height: 65px;
+}
+header > img {
+  height:65px;
+  margin-left: 134px;
+  float: left;
+}
+header > h1 > img {
+  height: 65px;
+  width: 20%;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 64px;
+  padding: 7px;
+  margin-left: 233px;
+}
+nav > ul {
+  text-align: center;
+}
+nav > ul  > li {
+  display: inline-block;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  color: grey;
+  margin-right:62px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: grey;
+}
+.rightOfHeader {
+  float: left;
+  width: 33%;
+  height: 64px;
+  padding: 7px
+}
+.rightOfHeader > ul {
+  text-align: center;
+}
+.rightOfHeader > ul > li {
+  font-family: 'PT Sans', sans-serif;
+  display: inline-block;
+  margin-right: 40px;
+}
+.rightOfHeader > ul > li > a {
+  text-decoration: none;
+  color: grey;
+}
+.imageEllen {
+  border: 1px solid white;
+  background-image: url(https://www.incimages.com/uploaded_files/image/1940x900/ellen-pao-01-2018_365650.jpg);
+  height: 474px;
+  background-size: cover;
+}
+h2 {
+  font-family: 'IBM Plex Serif', serif;
+  background: white;
+  height: 100px;
+  margin-top: 324px;
+  margin-left: 150px;
+  margin-right: 652px;
+  padding: 18px;
+}
+h2 > a {
+  text-decoration: none;
+  color: black;
+}
+}
+.buffy {
+  border: 2px solid black;
+  height: 300px;
+}
+.buffyImage {
+  background-image:url(https://www.thewrap.com/wp-content/uploads/2018/08/Buffy-the-Vampire.jpg);
+  background-size: contain;
+  background-size: no-repeat;
+  height: 253px;
+  width: 26%;
+  float: left;
+  margin-bottom: 40px;
+  margin-left: 198px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.buffyImageText {
+  height: 300px;
+  width: 35%;
+  float: left;
+}
+.buffyImageText > h3 {
+  font-family: 'IBM Plex Serif', serif;
+  text-align: left;
+  font-size: 25px;
+}
+.ugh{
+  margin-right: 6px;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+}

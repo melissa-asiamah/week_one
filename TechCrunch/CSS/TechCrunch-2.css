@@ -1,0 +1,268 @@
+/* BODY CSS */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+}
+
+/* HEADER CSS */
+h1 img {
+  width: 23%;
+  height: 120px;
+  float: left;
+}
+header {
+  height: 200px;
+}
+.tipTop {
+  width: 68%;
+  height: 163px;
+  margin: 0;
+  float: left;
+}
+.tip {
+  float: left;
+  width: 52%;
+  margin: 20px 0 0 35px;
+  color: grey;
+  font-size: 1.7em;
+}
+.tip span {
+  color: green;
+  font-weight:700;
+}
+nav > ul {
+height: 45px;
+margin-top: 43px;
+padding: 0;
+}
+nav > ul > li{
+  display: inline-block;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  margin-right: 39px;
+}
+.social {
+  width: 32%;
+  float: right;
+  height: 163px;
+  padding-top: 24px;
+}
+.social > ul {
+  padding: 0;
+  float: right;
+  width: 81%;
+}
+.social > ul > li {
+  display: inline-block;
+  background-color: lightgrey;
+  width: 10%;
+  height: 29px;
+  margin-right: 5px;
+  margin-top: 32px;
+}
+.social > ul > li > a {
+  color: grey;
+  font-size: 2em;
+  padding-left: 4.5px;
+}
+.social span {
+  font-size: 1.5em;
+  color: grey;
+  margin-top: 48px;
+  display: inline-block;
+}
+form > .firstButton {
+  background-color: black;
+  color: white;
+  width: 29%;
+  height: 39px;
+  margin-right: 10px;
+  font-size: 1.3em;
+}
+form > input {
+  border: 1px solid grey;
+  height: 35px;
+  width: 53%;
+}
+form > .secondButton {
+
+}
+.message {
+  float: left;
+  width: 100%;
+}
+.long {
+  float: left;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 0.6%;
+  background-color: green;
+  color: white;
+  font-size: 1.5em;
+}
+/* MAIN CSS */
+.leftSide {
+  width: 45%;
+  height: 411px;
+  height: 465px;
+  float: left;
+}
+.leftSide h2 {
+  font-size: 2em;
+}
+.leftSide span {
+  color: green;
+  font-size: 2.6rem;
+  letter-spacing: 1.5px;
+}
+.leftSide p {
+  color: grey;
+  font-size: 1.4em;
+  margin-top: 0;
+}
+.mid {
+  width: 28%;
+  height: 411px;
+  float: left;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+.mid h3 {
+  font-size: 2em;
+}
+.midParts {
+  height: 100px;
+  margin-bottom: 3%;
+}
+.midParts img {
+  width: 32%;
+  height: 96px;
+  float: left;
+}
+.midParts h4 {
+  float: left;
+  font-size: 1.5rem;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 9px;
+  margin-left: 2%;
+}
+.midParts span {
+  color: grey;
+  float: left;
+  font-size: 1.3rem;
+  margin-left: 2%;
+}
+.rightSide {
+  width: 27%;
+  height: 584px;
+  float: left;
+  background-color: lightgrey;
+}
+.rightSide h3 {
+  font-size: 2.4rem;
+  border-top: 5px solid grey;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 6%;
+  border-bottom: 5px solid grey;
+}
+.meow {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-size: 1.7em;
+  background-color: green;
+  color: white;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+fieldset {
+  padding-top: 5%;
+  height: 368px;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: solid white;
+}
+fieldset > p {
+  margin-bottom: 4%;
+  border-bottom: 1px solid grey;
+  padding-bottom: 7%;
+  font-size: 1.3em;
+  color: grey;
+  padding-left: 20px;
+}
+fieldset span {
+  font-weight: 900;
+  font-size: 1.2em;
+  padding-left: 1%;
+
+}
+.different {
+  height: 35px;
+  width: 70%;
+  margin-bottom: 3%;
+}
+fieldset button {
+  height: 36px;
+  background-color: green;
+  width: 29%;
+  color: white;
+}
+fieldset a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  padding-left: 23%;
+}
+@media (min-width:768px) and (max-width:1024px) {
+  .rightSide {
+    width: 100%;
+  }
+  .mid {
+    width: 91%;
+    padding-left: 140px;
+    height: 550px;
+  }
+  form {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+  .leftSide {
+    margin-left: 62px;
+  }
+}
+@media (min-width:375px) and (max-width:812px) {
+  .rightSide {
+    width: 100%;
+  }
+  .mid {
+    width: 116%;
+    height: 514px;
+  }
+  .tipTop {
+    width: 148%;
+  }
+  .tip {
+    margin-left: 5%;
+  }
+  .social {
+    display: none;
+  }
+  .leftSide {
+    width: 100%;
+    height: 407px
+  }
+}

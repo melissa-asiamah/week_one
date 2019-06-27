@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+body {
+  font-size: 10px;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+header {
+  background-image: url(https://images.101cookbooks.com/green-falafel-bowl-h.jpg?w=680&auto=format);
+  background-size: 100% 143%;
+  border: 1px solid black;
+  height: 550px;
+
+}
+.firstNav > ul {
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.firstNav > ul > li {
+  display: inline-block;
+  float:left;
+}
+.firstNav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 39px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.smallUl {
+  width: 20%;
+  float: right;
+  margin-right: 150px;
+}
+.smallUl > li {
+  display: inline-block;
+}
+.smallUl > li > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.smallUL button {
+
+}
+h1 {
+  width: 100%;
+  height: 241px;
+}
+h1 img {
+  margin-left: 39%;
+  padding-top: 56px;
+}
+form {
+  padding-left: 23%;
+}
+form input {
+  width: 35%;
+  height: 35px;
+}
+form button {
+  background-color: red;
+}
+.ownUL {
+  padding-left: 29%;
+  padding-top: 10px;
+}
+.ownUL li {
+  display: inline-block;
+  float: left;
+}
+.ownUL  li  a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.firstOne {
+  text-align: center;
+  margin-top: 36px;
+}
+.firstOne > a {
+  color: red;
+  text-decoration: none;
+  font-size: 1.6em;
+}
+.secondOne {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.secondOne > ul > li {
+  display: inline-block;
+}
+.secondOne > ul > li > a {
+  margin-right: 47px;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: black;
+}
+h3 {
+  color: red;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 44px;
+}
+.review1 {
+  border: 1px solid grey;
+  width: 26%;
+  height: 459px;
+  margin-right: 5%;
+  float: left;
+  margin-left: 8%;
+}
+.reviewInside1 {
+  height: 24%;
+  text-align: center;
+  margin-left: 25%;
+  width: 50%;
+  padding-top: 31px;
+  font-size: 1.5em;
+}
+.reviewInside2 {
+  height: 24%;
+  text-align: center;
+  margin-left: 25%;
+  width: 50%;
+  padding-top: 31px;
+  font-size: 1.5em;
+}
+.reviewInside3 {
+  height: 24%;
+  text-align: center;
+  margin-left: 25%;
+  width: 50%;
+  padding-top: 31px;
+  font-size: 1.5em;
+}
+.review2 {
+  border: 1px solid grey;
+  width: 26%;
+  height: 459px;
+  margin-right: 5%;
+  float: left;
+}
+.review1 img {
+  height: 319px;
+  width: 100%;
+}
+
+.review2 img {
+  height: 319px;
+  width: 100%;
+}
+.review3 {
+  border: 1px solid grey;
+  height: 459px;
+  margin-right: 5%;
+  float: left;
+  width: 25%;
+}
+.review3 img {
+  height: 319px;
+  width: 100%;
+}
+.test {
+  float: left;
+  padding-left: 43%;
+  padding-top: 26px;
+  text-decoration: none;
+  font-size: 1.6em;
+}
+.icons {
+  height: 302px;
+  background-color: lightgrey;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 12%;
+  float: left;
+  width: 99%;
+}
+.icons > h2 {
+  text-align: center;
+  color: red;
+  margin-top: 19px;
+  font-size: 2em;
+}
+.icons img {
+  float: left;
+  width: 23%;
+  height: 197px;
+  margin-right: -14px;
+  margin-left: 31px;
+}
+@media (min-width: 375px) and (max-width: 812px) {
+  .review1, .review2, .review3 {
+    width: 81%;
+  }
+  .review2, .review3 {
+    margin-left: 8%;
+  }
+  .icons img {
+    width: 72%;
+    height: 148px;
+    margin-right: -5px;
+    margin-left: 47px;
+  }
+  .icons {
+    background-color: white;
+  }
+  .test {
+    padding-left: 15%;
+  }
+  form input {
+    border: 1px solid black;
+  }
+  form {
+    padding-left: 16%;
+  }
+  header {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px);

@@ -1,0 +1,133 @@
+*{ box-sizing: border-box;
+
+}
+.containSection1 {
+  border: 1px solid white;
+  background-color: rgb(0, 116, 99);
+  height: 70px;
+}
+.leftHeaderSection {
+  border: 1px solid white;
+  height: 70px;
+  width: 20%;
+  float:left;
+}
+.leftHeaderSection span {
+  font-family: 'Noto Serif SC', serif;
+  text-align: center;
+  color: white;
+  font-weight:600;
+  display: inline-block;
+  margin-right: 25px;
+  padding-top: 20px;
+  margin-left: 85px;
+}
+.bigMidSecHeader h2 {
+  font-size: 80px;
+  leter-spacing: .05em;
+  font-weight: 900;
+  text-align: center;
+  margin: 15px;
+  margin-top: 15px;
+}
+.middleHeaderSection {
+  border: 1px solid white;
+  height: 70px;
+  width: 60%;
+  float: left;
+  color: white;
+  font-size: 20px;
+  font-family: 'Noto Serif SC', serif;
+  font-weight:200;
+}
+.rightHeaderSection {
+  border: 1px solid white;
+  height: 70px;
+  width: 20%;
+  float: left;
+  padding: 20px;
+  padding-left: 95px;
+}
+
+.rightHeaderSection a {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-right: 25px;
+}
+nav ul {
+  height: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 17px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: black;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  margin: 30px;
+  font-weight: bold;
+}
+.bigMidSectionContainer {
+  height: 800px;
+}
+.bigMidSecHeader {
+  height: 250px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+.imgSection {
+  height: 900px;
+}
+.imgSection img {
+  display: inline-block;
+  width:55%;
+  float: right;
+  margin-right: 310px;
+  margin-top: 75px;
+}
+.bottomSecContainer {
+  height: 700px;
+  clear: both;
+}
+.nestedImgs {
+  height: 300px;
+  width: 60%;
+  margin: 0;
+
+}
+.indvLinkSections {
+  display: inline-block;
+  height: 268px;
+  width: 20%;
+  border-top: 4px solid rgb(0, 116, 99);
+  margin: 20px 10px 0 50px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 15px;
+  font-weight:900;
+}
+.indvLinkSections img {
+  height: 179px;
+  width: 100%;
+  margin-top: 29px;
+}
+footer {
+  border: 1px solid black;
+  background-color: black;
+  height: 120px;
+}
+footer ul {
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  text-decoration: none;
+  color: grey;
+}
